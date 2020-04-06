@@ -22,4 +22,18 @@ and unzip the files. You can also remove the "-master" portion.
 So, one library sets up the framework for how the Arduino and the DS18B20 talk to each and the other gives the
 Arduino the language that they speak to each other in.
 
-# 
+# Instructons to follow
+
+There are several projects that serve as excellent guides for working with the DS18B20 temperature sensors.
+
+We'll be using them as a starting ground for accomplishing the objective of connecting an Arduino to a PC and
+logging the temperature of any connected sensors for a long period of time.
+
+https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806
+
+https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc
+
+https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/
+
+
+
