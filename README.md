@@ -41,3 +41,5 @@ https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-se
 https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc
 
 https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/
+
+https://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
