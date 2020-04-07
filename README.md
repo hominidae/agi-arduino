@@ -51,3 +51,15 @@ https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temp
 https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/
 
 https://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
+
+# Todo:
+
+ - Write code to collect the serial numbers of the DS18B20 sensors for identification purposes
+ - Write an application collect serial communications data from the Arduino
+
+
+# Preliminary use questions:
+
+Question: Can a single 4.7K resistor work for more than one sensor?
+
+Answer: Yes. When placed between the 5VDC power input wire and the single data line that goes to both sensors, it does.
