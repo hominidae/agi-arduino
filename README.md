@@ -55,6 +55,8 @@ https://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor
 # Todo:
 
  - Write code to collect the serial numbers of the DS18B20 sensors for identification purposes
+  Here is a write-up on using Python to connect to a serial device
+  https://pyserial.readthedocs.io/en/latest/shortintro.html
  - Write an application collect serial communications data from the Arduino
 
 
