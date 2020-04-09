@@ -5,9 +5,19 @@ that data via a USB connection to a PC.
 
 # What do I need?
 
-You will need an Arduino. And a couple of DS18B20 temperature sensor IC's.
+You will need an Arduino. And the DS18B20 temperature sensor IC's.
 
-You'll also need a breadboard and a few jumper wires.
+You'll also need a breadboard and a few jumper wires to connect everything.
+
+See the following tutorial's on how to wire them up:
+
+https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806
+
+https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc
+
+https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/
+
+https://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
 
 # How do I use this?
 
@@ -38,19 +48,6 @@ your Arduino library folder.
 
 So, one library sets up the framework for how the Arduino and the DS18B20 talk to each and the other gives the
 Arduino the language that they speak to each other in.
-
-# A better overview of how to wire the DS18B20 sensors are available from these tutorials:
-
-We'll be using them as a starting ground for accomplishing the objective of connecting an Arduino to a PC and
-logging the temperature of any connected sensors for a long period of time.
-
-https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806
-
-https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc
-
-https://randomnerdtutorials.com/guide-for-ds18b20-temperature-sensor-with-arduino/
-
-https://www.tweaking4all.com/hardware/arduino/arduino-ds18b20-temperature-sensor/
 
 # Todo:
 
