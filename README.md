@@ -54,8 +54,20 @@ Arduino the language that they speak to each other in.
  - Write code to collect the serial numbers of the DS18B20 sensors for identification purposes
   Here is a write-up on using Python to connect to a serial device
   https://pyserial.readthedocs.io/en/latest/shortintro.html
- - Write an application collect serial communications data from the Arduino
 
+ - Use the CSV Python 3 built-in to produce a better structured data log for temperature data
+
+
+# Serial Data Logging:
+I found this github repository with a simple datalogger written in Python, I had a number of problems with it.
+
+https://github.com/pedrominatel/py_serial_datalogger
+
+The modifications I made to it that serial communications data from Serial.readline() are converted to utf-8, and comma's are added and a new line for each entry.
+
+Simply modify SerialLogger.py with your Arduino com port specific info.
+
+The data is dumped into a CSV file.
 
 # Preliminary use questions:
 
