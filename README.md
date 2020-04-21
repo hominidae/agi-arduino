@@ -51,8 +51,10 @@ Arduino the language that they speak to each other in.
 
 # Todo:
  - Figure out data logging problem:
+ 
     Currently, the Python script will run for several days and the script will hang until a keyboard prompt wakes the
    script up. Then, the serial data in memory will be dumped and issued an incorrect timestamps.
+   
     A potential solution would be to construct the records in memory, issuing them a timestamp and storing both the sensor
    values and the timestamp in the same tuple.
    
