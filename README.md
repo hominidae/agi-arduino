@@ -50,13 +50,14 @@ So, one library sets up the framework for how the Arduino and the DS18B20 talk t
 Arduino the language that they speak to each other in.
 
 # Todo:
-
- - Write code to collect the serial numbers of the DS18B20 sensors for identification purposes
-  Here is a write-up on using Python to connect to a serial device
-  https://pyserial.readthedocs.io/en/latest/shortintro.html
-
- - Use the CSV Python 3 built-in to produce a better structured data log for temperature data
-
+ - Figure out data logging problem:
+    Currently, the Python script will run for several days and the script will hang until a keyboard prompt wakes the
+   script up. Then, the serial data in memory will be dumped and issued an incorrect timestamps.
+    A potential solution would be to construct the records in memory, issuing them a timestamp and storing both the sensor
+   values and the timestamp in the same tuple.
+   
+   Note: Currently running the Python datalogger script with the following command: pyton -m trace --trace SerialLogger.py
+    to determine the cause of intermittent hanging. It could be the lack of proper watchdogging.
 
 # Serial Data Logging:
 I found this github repository with a simple datalogger written in Python, I had a number of problems with it.
